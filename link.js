@@ -11,4 +11,8 @@ class Link {
         })
         World.add(engine.world, this.link);
     }
+
+    cortar(){
+        World.remove(engine.world, this.link);
+    }
 }
